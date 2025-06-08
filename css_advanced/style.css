@@ -29,6 +29,7 @@ nav ul li a  :visited{
     background-repeat: no-repeat;
     align-items: center;
     text-align: center;
+    margin: 0px;
     
 }
 
@@ -52,16 +53,18 @@ h1{
    margin: 10px;
    text-align: center;
 }
-.background_image button{
+ button{
     background-color:blueviolet;
     border-radius: 20px;
     border: none;
     box-shadow: 2px 4px 4px 2px rgb(94, 90, 90);
-    display: flex;
+    display: block;
     height: 30px;
     align-items: center;
     cursor: pointer;
     margin-top: 20px;
+    margin-bottom: 20px;
+    
 
     color: white;
 
@@ -75,7 +78,130 @@ h2{
     gap: 20px;
     color:white;
     margin-left: 150px;
-    
+}
 .bruce{
     border-radius: 70px;
+}
+.quote{
+    background-color: rgb(192, 14, 247);
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.quote img{
+    object-fit: cover;
+}
+.image-text blockquote,
+.image-text h3,
+.image-text p{
+    margin: 5px;
+    
+}
+.video{
+    position:relative;
+    display: inline-block;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+}
+
+.thumbnail {
+  position: relative;
+}
+.thumbnail img{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+.play-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: -200px; 
+    height: -200px;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    opacity: 0.7;
+}
+.video-block{
+    display: flex;
+    gap:10px;
+}
+.Massey{
+    width:20px;
+    height: 20px;
+}
+.author{
+    display: flex;
+    margin: 0;
+}
+.rating{
+    display: flex;
+    color: blueviolet;
+    
+}
+h6{
+    color: blueviolet;
+}
+.smile{
+    display:flex;
+    margin-top: 30px;
+    gap: 10px;
+    text-align: center;
+}
+.btn{
+    display: block;
+}
+.membership h2{
+    color: black;
+    margin-top: 150px;
+    align-items: center;
+
+}
+.membership{
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: black;
+    color: white;
+}
+.how{
+    text-align: center;
+    color: white;
+}
+.how1{
+    display: grid;
+     grid-template-columns: 1fr 1fr; 
+  grid-template-rows: auto auto;
+  gap:20px;
+  text-align: center;
+}
+.how h2{
+    color: black;
+    margin-top: 50px;
+}
+footer{
+    background-color: black;
+
+}
+.foot{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+.foot div i{
+    color: white;
+}
+.media{
+    display: flex;
+    align-items: end;
+}
+footer p{
+    color: white;
+    text-align: center;
 }
