@@ -1,0 +1,66 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* changed from 'top' to 'center' */
+  position: fixed; /* makes it stick at the top */
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.0); /* optional: makes background solid */
+  z-index: 1000; /* ensures it stays on top */
+  padding: 10px 10px;
+  opacity: 0.9;
+}
+
+.ground_image{
+    background-image: url(images/headphones_hero_1.jpg);
+    background-size: cover;
+    min-height: 100vh; 
+    background-position: center;
+   
+}
+img {
+    height: 20px;
+    margin: 30px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    text-align: top;
+    margin-left: 850px;
+    margin-top: 0px;
+    color: white;
+}
+nav ul li a :hover,
+nav ul li a:active
+{
+    color:#FF6565 ;
+}
+nav ul li a {
+    color: white;
+}
+
+.firstdiv {
+    text-align: center;
+    color: white;
+    padding-top: 110px;
+
+    
+}
+button{
+    border-radius: 20px;
+    background-color: #FF6565;
+    height:30px ;
+    color:white;
+    width:150px;
+    margin-top: 50px;
+}
+button:hover,
+button:active{
+    opacity: 0.9;
+}
+.paragraph{
+    text-align: center;
+    margin:0px 300px  0px 300px ;
+    margin-top: 150px;
+    
+}
