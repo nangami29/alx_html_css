@@ -1,0 +1,18 @@
+main{
+    align-items: center;
+}
+h3{
+    text-align: center;
+}
+.firstp{
+    text-align: center;
+    margin: 100px 100px;
+}
+.imagesdiv{
+    display: flex;
+}
+.voicenote img{
+    color: rgb(192, 24, 24);
+    border: 20px;
+    
+}

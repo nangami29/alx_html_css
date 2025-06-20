@@ -1,0 +1,23 @@
+.pentagon {
+    gap: 50px;
+  width: 150px;
+  height: 150px;
+  background: rgb(248, 8, 8);
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+h3{
+    position: relative;
+    left: 80%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+body{
+    display: flex;
+}
+p{
+    position: relative;
+    top: 20%;
+    left: 10%;
+    color: white;
+}
